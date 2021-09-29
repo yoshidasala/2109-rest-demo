@@ -1,0 +1,17 @@
+{
+  "name": "smash-character-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "seed.js",
+  "scripts": {
+    "seed-database": "node seed.js",
+    "turn-on-server": "node its-the-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  }
+}
